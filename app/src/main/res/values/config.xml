@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Number of dock slots = number of grid columns (4, 5, 6 or 7) -->
+    <integer name="columns">4</integer>
+
+    <!-- Optional name for the greeting, e.g. "Good evening, Nikhil". Leave empty for just "Good evening". -->
+    <string name="greeting_name"></string>
+
+    <!-- DOCK: the first <columns> packages here become the dock, left to right.
+         Change the order or swap packages here, nothing else needs editing. -->
+    <string-array name="dock_apps">
+        <item>in.startv.hotstar</item>
+        <item>app.netmirror.newtv</item>
+        <item>app.cricfy.tv</item>
+        <item>com.anilab.android.tv</item>
+    </string-array>
+
+    <!-- GRID: shown below the dock in this order. Anything installed but not listed
+         here or in the dock is appended afterwards, A to Z. -->
+    <string-array name="grid_apps">
+        <item>org.smarttube.stable</item>
+        <item>tv.airtel.xstream.tvapp</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.google.android.youtube.tv</item>
+        <item>com.android.vending</item>
+        <item>org.localsend.localsend_app</item>
+    </string-array>
+</resources>
